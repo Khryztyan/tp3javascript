@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galguilan es la tienda de galguitis aguda, todo lo recaudado es para los solventar los rescates y atencion que requieran los galgos">
+  <meta name="keywords" content="galguitis aguda,martingales,galguiland, accesorios para perros, collares,correas">
+  <link rel="shortcut icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="css/stylo.css">
+  <script src="https://kit.fontawesome.com/69f652cca4.js" crossorigin="anonymous"></script>
+  <title>Galguiland | La galguitienda de GalguitisAguda</title>
+</head>
+<body>
+  <header>
+    <div class="container" id="carrito">
+      <nav>
+        <div class="titulo">
+          <h1><p><strong>!Bienvenidos a la galgui-tienda de Galguitis Aguda!</strong></p></h1>
+        </div>
+        <i class="fa-solid fa-cart-shopping">
+          <div class="buy-card" id="lista-carrito">
+            <ul class="nav-card">
+              <li>Imagen</li>
+              <li>Nombre</li>
+              <li>Precio</li>
+              <li>cantidad</li>
+              <li></li>
+            </ul>
+            <div class="lista_carrito"></div>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+          </div>
+        </i>
+      </nav>
+    </div> 
+  </header>
+    <div class="subtitulo">
+      <img src="./img/GalguiLand Tipografia png (2).png" alt="galguiland">
+      <h2>"Un lugar donde los sueños de tu mascota y los tuyos se hacen realidad"</h2>
+    </div>
+    <div class="grid" id="product-list">
+      <div class="items">
+        <img src="./img/mg4cmcirculos.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="1">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg4cmserpiente.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg4cmtrenza.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="3">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg4cmcirculos.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="4">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc4circulos.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="5">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc4trenza.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="6">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc4serpiente.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="7">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc4trenza.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="8">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="9">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg25estrellas.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="10">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg25militar.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="11">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/mg25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Martingales</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="12">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="13">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc25estrellas.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="14">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc25militar.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="15">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/hc25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Collares Hebillas Clip</h3>
+          <p>Collares de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="16">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa4circulos.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 1.5mts</h3>
+          <p>Correas de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="17">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa4serpiente.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 1.5mts</h3>
+          <p>Correas de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="18">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa4trenza.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 3mts</h3>
+          <p>Correas de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="19">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa4circulos.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 3mts</h3>
+          <p>Correas de 4cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="20">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img//correa25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 1.5mts</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="21">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa25estrellas.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 1.5mts</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="22">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa25militar.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 3mts</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="23">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/correa25animal.jpeg" alt="">
+        <div class="info">
+          <h3>Correas 3mts</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="24">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/fondo.jpeg" alt="">
+        <div class="info">
+          <h3>cinturones Regulables</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="25">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/fondo.jpeg" alt="">
+        <div class="info">
+          <h3>cinturones Regulables</h3>
+          <p>Correas de 2.5cm de ancho, reforzados, varios modelos</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="26">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/fondo.jpeg" alt="">
+        <div class="info">
+          <h3>comedero en altura</h3>
+          <p>Comederos regulable en altura, reforzados, con 2 tazon de acero inoxidable</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="27">Agregar al carrito</button>
+        </div>
+      </div>
+      <div class="items">
+        <img src="./img/fondo.jpeg" alt="">
+        <div class="info">
+          <h3>palanqueras</h3>
+          <p>Bolsa para el auto, para colocar objetos o basura</p>
+          <div class="precio">
+            <p>$300</p>
+          </div>
+          <button class="agregar-carrito" data-id="28">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <footer>
+    <div>
+      <div class="autor">                           
+        <h3>Contactanos</h3>  
+      </div>
+      <div class="redessociales">
+        <a href="https://www.facebook.com/profile.php?id=100086387708209" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/galguiland/" target="_blank" class="fa fa-instagram"></a>
+        <a href=" https://api.whatsapp.com/send/?phone=3426277106" target="_blank" class="fa fa-whatsapp"><a>    
+      </div>
+      <p class="copyright">&copy;2023 <strong>Galguiland</strong> - Todos los Derechos Reservados.</p>
+    </div>
+  </footer> 
+  <script src="./js/main.js"></script>
+</body>
+</html>

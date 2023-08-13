@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }  
+/* Estilos General */
+body{
+    font-size: 62.5%;
+}
+h1{
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 3rem;
+}
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 20px;
+}
+.subtitulo img{
+    width: 50%;
+    margin-bottom: 25px;
+}
+h2{
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 1.2rem;
+    color:#293253
+}
+.container{
+    background-color: rgb(243, 202, 209);
+}
+.titulo{
+    text-align: left;
+    flex: 1;
+}
+.titulo p{
+    font-size: 2.5rem;
+    color: #293253;
+}
+.container nav{
+    width: 100%;
+    display: flex;
+
+    padding: 15px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    color:black;
+}
+.lista_carrito div{
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin black;
+}
+.container nav i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.container nav i:hover > .buy-card{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    background-color: #6bd47f;
+}
+.container nav i:hover  .buy-card > .lista_carrito div{
+    display: flex;
+}
+.lista_carrito img{
+    width: 100px;
+}
+.lista_carrito p{
+    width: 250px;
+    font-size: 1.3rem;
+}
+.container nav i:hover .nav-card{
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: solid thin black;
+    padding-right: 50px;
+}
+.container nav i:hover .buy-card > button{
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border: solid thin black;
+    border-radius: 25px;
+    color: #293253;
+    cursor: pointer;
+}
+.container nav i:hover .buy-card > button:hover{
+    background-color: #ffd857;
+    transition: all .4s;
+}
+.nav-card{
+    display: none;
+}
+.nav-card li{
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+.container nav button{
+    display: none;
+}
+.grid{ 
+    display: grid;
+    max-width: 1100px;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,250px));
+    padding-bottom: 25px;
+}
+.items{
+    border: solid thin black ;
+    background-color: #293253;
+    color: #ffd857;
+
+}
+.items img{
+    width: 100%;
+    height: 170px;
+}
+.info{
+    padding: 15px;
+}
+.info h3{
+    font-size: 1.9rem;
+    text-align: center;
+}
+.info p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+.info h3,
+.info p{
+    margin-bottom: 15px;
+}
+.precio{
+    text-align: center;
+}
+.precio p{
+    font-size: 1.8rem;
+}
+.info button{
+    padding: 1rem;
+    width: 100%;
+    background-color: #6bd47f;
+    color: #293253;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    margin-bottom:5px;
+}
+.info button:hover{
+    background-color: #ffd857;
+    color:#6bd47f;
+    transition: all .4s;
+}
+footer {
+    margin-top: auto;
+    background-color:#293253;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+footer .redessociales {
+    height: 20px;
+    margin: 10px;
+}
+footer .redessociales a{  
+    width: 100px;
+    color:#ffd857;
+    text-decoration: none;
+    text-align: center;
+}
+footer .redessociales a:hover {
+    background-color:#6bd47f;
+    border-radius: 50%;
+}
+.copyright{
+    font-size: 0.8rem;
+}
