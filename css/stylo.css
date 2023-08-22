@@ -116,7 +116,10 @@ h2{
     padding: 1rem;
     font-weight: bold;
 }
-.container nav button{
+.container nav .filtro{
+    padding: 10px;
+}
+.container nav i button{
     display: none;
 }
 .grid{ 

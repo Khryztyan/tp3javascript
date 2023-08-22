@@ -1,0 +1,199 @@
+[
+    {
+      "id": 1,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/mg4cmcirculos.jpeg"
+    },
+    {
+      "id": 2,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/mg4cmserpiente.jpeg"
+    },
+    {
+      "id": 3,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/mg4cmtrenza.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/mg4cmcirculos.jpeg"
+    },
+    {
+      "id": 5,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/hc4circulos.jpeg"
+    },
+    {
+      "id": 6,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/hc4trenza.jpeg"
+    },
+    {
+      "id": 7,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$300",
+      "imagen": "./img/hc4serpiente.jpeg"
+    },
+    {
+      "id": 8,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 4cm de ancho, reforzados, varios modelos",
+      "precio": "$3000",
+      "imagen": "./img/hc4trenza.jpeg"
+    },
+    {
+      "id": 9,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/mg25animal.jpeg"
+    },
+    {
+      "id": 10,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/mg25estrellas.jpeg"
+    },
+    {
+      "id": 11,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/mg25militar.jpeg"
+    },
+    {
+      "id": 12,
+      "nombre": "Collares Martingales",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/mg25animal.jpeg"
+    },
+    {
+      "id": 13,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/hc25animal.jpeg"
+    },
+    {
+      "id": 14,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/hc25estrellas.jpeg"
+    },
+    {
+      "id": 15,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/hc25militar.jpeg"
+    },
+    {
+      "id": 16,
+      "nombre": "Collares Hebillas Clip",
+      "descripcion": "Collares de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/hc25animal.jpeg"
+    },
+    {
+      "id": 17,
+      "nombre": "Correas 1.5mts",
+      "descripcion": "Correas de 4cm de ancho, reforzados, varios modelos",      
+      "precio": "$2500",
+      "imagen": "./img/correa4circulos.jpeg"
+    },
+    {
+      "id": 18,
+      "nombre": "Correas 1.5mts",
+      "descripcion": "Correas de 4cm de ancho, reforzados, varios modelos", 
+      "precio": "$2500",
+      "imagen": "./img/correa4serpiente.jpeg"
+    },
+    {
+      "id": 19,
+      "nombre": "Correas 3mts",
+      "descripcion": "Correas de 4cm de ancho, reforzados, varios modelos", 
+      "precio": "$3000",
+      "imagen": "./img/correa4trenza.jpeg"
+    },
+    {
+      "id": 20,
+      "nombre": "Correas 3mts",
+      "descripcion": "Correas de 4cm de ancho, reforzados, varios modelos", 
+      "precio": "$3000",
+      "imagen": "./img/correa4circulos.jpeg"
+    },
+    {
+      "id": 21,
+      "nombre": "Correas 1.5mts",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos", 
+      "precio": "$2000",
+      "imagen": "./img/correa25animal.jpeg"
+    },
+    {
+      "id": 22,
+      "nombre": "Correas 1.5mts",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos",      
+      "precio": "$2000",
+      "imagen": "./img/correa25estrellas.jpeg"
+    },
+    {
+      "id": 23,
+      "nombre": "Correas 3mts",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/correa25militar.jpeg"
+    },
+    {
+      "id": 24,
+      "nombre": "Correas 3mts",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/correa25animal.jpeg"
+    },
+    {
+      "id": 25,
+      "nombre": "cinturones Regulables",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/fondo.jpeg"
+    },
+    {
+      "id": 26,
+      "nombre": "cinturones Regulables",
+      "descripcion": "Correas de 2.5cm de ancho, reforzados, varios modelos",
+      "precio": "$2500",
+      "imagen": "./img/fondo.jpeg"
+    },
+    {
+      "id": 27,
+      "nombre": "comedero en altura",
+      "descripcion": "Comederos regulable en altura, reforzados, con 2 tazon de acero inoxidable",
+      "precio": "$15000",
+      "imagen": "./img/fondo.jpeg"
+    },
+    {
+      "id": 28,
+      "nombre": "palanqueras",
+      "descripcion": "Bolsa para el auto, para colocar objetos o basura",
+      "precio": "$1800",
+      "imagen": "./img/fondo.jpeg"
+    }
+  ]
+  

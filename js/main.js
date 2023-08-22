@@ -8,19 +8,28 @@ const contenedorCarrito = document.querySelector('.buy-card .lista_carrito')
 //console.log(contenedorCarrito)
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito')
 //console.log(vaciarCarritoBtn)
+const searchButton = document.querySelector('#search-button');
+//console.log(searchButton)
+const searchInput = document.querySelector('#search-input');
+//console.log(searchInput)
 document.addEventListener('DOMContentLoaded',()=>{
     if(JSON.parse(localStorage.getItem('carrito')) == null){
         articulosCarrito = []
-        console.log(articulosCarrito)
+        //console.log(articulosCarrito)
     }else{
     articulosCarrito = JSON.parse(localStorage.getItem('carrito'))
-    console.log(articulosCarrito)
+    //console.log(articulosCarrito)
     }
     carritoHTML();
 })
+fetchProductsFromJSON().then(products => {
+    //console.log(products);
+    displayFilteredProducts(products);
+  });
 listaProductos.addEventListener('click', agregarProducto);
 vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 carrito.addEventListener('click', eliminarProducto);
+searchButton.addEventListener('click', realizarBusqueda);
 //agragar producto al carrito
 function agregarProducto(evt){
     evt.preventDefault()
@@ -96,5 +105,51 @@ function vaciarCarrito(){
     articulosCarrito = [];
     sincronizarStorage();
 }
+async function fetchProductsFromJSON() {
+    try {
+      const response = await fetch('productos.json'); 
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error fetching products:', error);
+      return [];
+    }
+  }
+  function filterProductsBySearchTerm(searchTerm, products) {
+    return products.filter(product => {
+      const nombreEnMinusculas = product.nombre.toLowerCase();
+      return nombreEnMinusculas.includes(searchTerm);
+    });
+  }
+  
+  function displayFilteredProducts(filteredProducts) {
+    listaProductos.innerHTML = ''; 
+    filteredProducts.forEach(product => {
+      const productElement = document.createElement('div');
+      productElement.classList.add('items');
+      productElement.innerHTML = `
+      <img src="${product.imagen}" alt="">
+      <div class="info">
+        <h3>${product.nombre}</h3>
+        <p>${product.descripcion}</p>
+        <div class="precio">
+          <p>${product.precio}</p>
+        </div>
+        <button class="agregar-carrito" data-id="${product.id}">Agregar al carrito</button>
+      </div>
+    `;
+      listaProductos.appendChild(productElement);
+    });
+  }
+  
+  function realizarBusqueda() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    fetchProductsFromJSON().then(products => {
+      const filteredProducts = filterProductsBySearchTerm(searchTerm, products);
+      displayFilteredProducts(filteredProducts);
+    });
+  }
+  
+  
 
 
